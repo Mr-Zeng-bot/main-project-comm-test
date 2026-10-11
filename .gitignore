@@ -1,0 +1,51 @@
+# ============================================
+# STM32CubeIDE 编译产物
+# ============================================
+Debug/
+Release/
+Binaries/
+build/
+cmake-build-debug/
+cmake-build-release/
+
+# 编译中间文件与输出
+*.o
+*.d
+*.su
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.siz
+
+# ============================================
+# Eclipse / CubeIDE 工程缓存
+# ============================================
+.settings/
+.metadata/
+RemoteSystemsTempFiles/
+
+# ============================================
+# 编辑器 / 系统
+# ============================================
+.idea/
+.vscode/
+*.bak
+*.orig
+*.rej
+*~
+
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ============================================
+# 说明
+# ============================================
+# 以下文件需要提交，不要忽略：
+#   .cproject / .project   CubeIDE 工程定义
+#   *.ioc                  CubeMX 配置
+#   *.launch               烧录与调试配置
+#   .mxproject             CubeMX 工程记录
+

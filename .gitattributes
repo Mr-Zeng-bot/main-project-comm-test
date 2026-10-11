@@ -1,2 +1,36 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# 行尾统一：仓库与工作区都使用 LF，避免跨系统出现无意义的整文件差异
+* text=auto eol=lf
+
+# 源码与工程文件
+*.c            text eol=lf
+*.h            text eol=lf
+*.s            text eol=lf
+*.ld           text eol=lf
+*.ioc          text eol=lf
+*.mxproject    text eol=lf
+*.cproject     text eol=lf
+*.project      text eol=lf
+*.launch       text eol=lf
+*.cfg          text eol=lf
+*.md           text eol=lf
+*.txt          text eol=lf
+*.xml          text eol=lf
+*.json         text eol=lf
+
+# 二进制文件，不做行尾转换
+*.bin          binary
+*.hex          binary
+*.elf          binary
+*.o            binary
+*.a            binary
+*.su           binary
+*.pdf          binary
+*.png          binary
+*.jpg          binary
+*.jpeg         binary
+*.gif          binary
+*.ico          binary
+*.xlsx         binary
+*.zip          binary
+*.7z           binary
+*.rar          binary
